@@ -11,6 +11,6 @@
 </svelte:head>
 
 <div class="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-    <img src="/logo.png" alt="Company Logo" class="mb-8 h-32 w-auto" />
+    <img src={PUBLIC_SITE_LOGO} alt="Company Logo" class="mb-8 h-32 w-auto" />
     {@render children()}
 </div>
